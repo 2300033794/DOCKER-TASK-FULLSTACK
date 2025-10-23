@@ -8,6 +8,7 @@ RUN npm install
 
 COPY . .
 RUN npm run build
+#hello
 
 # ---- Stage 2: Serve ----
 FROM nginx:alpine
